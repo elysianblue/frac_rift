@@ -1,0 +1,93 @@
+# System Registry Acquisition
+# -----------------------
+#Get the system hive
+C:\windows\system32\config\SYSTEM
+#Get the default hive
+C:\windows\system32\config\DEFAULT
+#Get the sam hive
+C:\windows\system32\config\SAM
+#Get the security hive
+C:\windows\system32\config\SECURITY
+#Get the software hive
+C:\windows\system32\config\SOFTWARE
+#Win8 Application Experience and Compatibility  C:\Windows\AppCompat\Programs\Amcache.hve
+C:\windows\appcompat\programs\amcache.hve$
+#Syscache.hve  https://github.com/libyal/winreg-kb/blob/master/documentation/SysCache.asciidoc
+C:\System Volume Information\Syscache.hve
+
+# Scheduled Tasks Acquisition
+# ----------------------------
+#Get the contents of the Tasks directory for Windows 2000, XP, 2003
+#\/Windows\/Tasks\/
+#Get the Contents of the Tasks directory for Windows 7+
+C:\Windows\System32\Tasks\*
+#Get a copy of the task scheduler logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-TaskScheduler*.evtx
+
+# Event Log Acquisition
+# ----------------------------
+#Get a copy of Application, System, and Security Event Logs
+C:\Windows\system32\winevt\Logs\Application\.evtx
+C:\Windows\system32\winevt\Logs\System\.evtx
+C:\Windows\system32\winevt\Logs\Security\.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Security-*.evtx
+#Get PowerShell Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-PowerShell*.evtx
+C:\Windows\system32\winevt\Logs\Windows PowerShell.evtx
+#Get Terminal Services Event Logs 
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-TerminalServices*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-RemoteDesktopServices*.evtx
+#Get Firewall and Advanced Security/Defender Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Windows Firewall*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Windows Defender*.evtx
+#Get SMB Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-SmbClient*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-SMBServer*.evtx
+#Get Internet Explorer Event Logs
+C:\Windows\system32\winevt\Logs\Internet Explorer.evtx
+#Get Windows Shell Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Shell*.evtx
+#Get MUI Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-MUI*.evtx
+#Get Winlogon Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Winlogon*.evtx
+#Get WMI Event Logs
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-WMI-*.evtx
+
+# User Registry Acquisition
+# ---------------------------
+#Gathers all users ntuser.dat files
+C:\Users\[user]\ntuser.dat
+#Win7 shellbag data
+#\Users\[user]\AppData\Local\Microsoft\Windows\UsrClass.dat
+C:\Users\[user]\AppData\Local\Microsoft\Windows\UsrClass.dat
+
+# Browser Histories
+# ------------------
+# Firefox History SQLite Databases
+\/Firefox\/Profiles\/*\.sqlite$
+# Internet Explorer WebCache DAT files
+\/Microsoft\/Windows\/WebCache\/WebCacheV*\.dat 
+# Google Chrome History
+\/Google\/Chrome\/User\ Data\/Default\/History\/
+
+# Ancillary Host Forensic Artifacts
+# ---------------------------------
+#journeyintoir.blogspot.com/2014/04/triaging-with-recentfilecachebcf-file.html
+RecentFilecache.bcf$
+#Get the contents of the Prefetch directory
+C:\Windows\prefetch\*.pf
+#Microsoft Malicious Software Removal (MSRT)
+C:\Windows\Debug\mrt.log
+C:\Windows\Debug\mrteng.log
+#Windows Defender Logs
+C:\ProgramData\Microsoft\Windows Defender\Support\*log
+#Powershell Info
+C:\Windows\System32\wbem\Repository\OBJECTS.DATA
+C:\Windows\System32\wbem\Repository\FS\OBJECTS.DATA
+# System Resource Usage Monitor (SRUM)
+C:\Windows\System32\sru\srudb.dat
+# USB History
+C:\Windows\inf\setupapi.dev.log
+
+

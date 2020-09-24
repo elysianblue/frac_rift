@@ -1,0 +1,36 @@
+C:\windows\system32\config\SYSTEM
+C:\windows\system32\config\DEFAULT
+C:\windows\system32\config\SAM
+C:\windows\system32\config\SECURITY
+C:\windows\system32\config\SOFTWARE
+C:\windows\appcompat\programs\amcache.hve$
+C:\System Volume Information\Syscache.hve
+C:\Windows\System32\Tasks\*
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-TaskScheduler*.evtx
+C:\Windows\system32\winevt\Logs\Application\.evtx
+C:\Windows\system32\winevt\Logs\System\.evtx
+C:\Windows\system32\winevt\Logs\Security\.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Security-*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-PowerShell*.evtx
+C:\Windows\system32\winevt\Logs\Windows PowerShell.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-TerminalServices*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-RemoteDesktopServices*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Windows Firewall*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Windows Defender*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-SmbClient*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-SMBServer*.evtx
+C:\Windows\system32\winevt\Logs\Internet Explorer.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Shell*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-MUI*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-Winlogon*.evtx
+C:\Windows\system32\winevt\Logs\Microsoft-Windows-WMI-*.evtx
+C:\Users\[user]\ntuser.dat
+C:\Users\[user]\AppData\Local\Microsoft\Windows\UsrClass.dat
+C:\Windows\prefetch\*.pf
+C:\Windows\Debug\mrt.log
+C:\Windows\Debug\mrteng.log
+C:\ProgramData\Microsoft\Windows Defender\Support\*log
+C:\Windows\System32\wbem\Repository\OBJECTS.DATA
+C:\Windows\System32\wbem\Repository\FS\OBJECTS.DATA
+C:\Windows\System32\sru\srudb.dat
+C:\Windows\inf\setupapi.dev.log
